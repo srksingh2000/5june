@@ -1,25 +1,16 @@
-var a = 6;
+function getFunc() {
 
-function test() {
+    var a = 7;
 
-    vara = 7;
-
-    function again() {
+    return function(b) {
 
 
+        alert(a + b);
 
-        var a = 8;
-        alert(a); //A
 
     }
-
-    again();
-    alert(a); //B
-
-
+    var f = grtFunc();
+    f(5);
 
 
 }
-
-test();
-alert(a); //c
